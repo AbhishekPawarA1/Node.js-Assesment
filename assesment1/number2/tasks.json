@@ -1,0 +1,4 @@
+[
+  { "id": "1", "title": "Buy groceries", "dueDate": "2025-01-10" },
+  { "id": "2", "title": "Finish project", "dueDate": "2025-01-15" }
+]
