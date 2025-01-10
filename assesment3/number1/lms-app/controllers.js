@@ -1,6 +1,5 @@
 const courses = require("./models");
 
-// Retrieve all courses or filter by availability
 const getCourses = (req, res) => {
   const { available } = req.query;
   if (available) {
@@ -12,7 +11,6 @@ const getCourses = (req, res) => {
   res.json(courses);
 };
 
-// Retrieve a single course by ID
 const getCourseById = (req, res) => {
   const { id } = req.params;
   const course = courses.find((course) => course.id === parseInt(id));
@@ -22,7 +20,6 @@ const getCourseById = (req, res) => {
   res.json(course);
 };
 
-// Root route (optional)
 const rootRoute = (req, res) => {
   res.send("Welcome to the Courses API");
 };
