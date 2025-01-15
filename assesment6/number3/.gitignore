@@ -1,0 +1,10 @@
+node_modules/
+
+lms-analytics/
+├── models/
+│   ├── user.js
+│   └── course.js
+├── routes/
+│   └── analytics.js
+├── server.js
+└── config.js
