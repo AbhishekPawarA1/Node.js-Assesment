@@ -1,0 +1,16 @@
+node_modules/
+
+
+# /number2
+#   /models
+#     course.js
+#     user.js
+#   /controllers
+#     courseController.js
+#     userController.js
+#   /routes
+#     courseRoutes.js
+#     userRoutes.js
+#   /utils
+#     pagination.js
+#   app.js
