@@ -1,0 +1,15 @@
+node_modules/
+
+# lms-analytics/
+# ├── controllers/
+# │   ├── analyticsController.js
+# ├── models/
+# │   ├── userModel.js
+# │   ├── courseModel.js
+# ├── routes/
+# │   ├── analyticsRoutes.js
+# ├── app.js
+# ├── package.json
+# ├── package-lock.json
+# └── README.md
+
