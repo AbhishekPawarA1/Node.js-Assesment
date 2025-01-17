@@ -1,0 +1,16 @@
+node_modules/
+
+
+# /lms-analytics
+# │
+# ├── /models
+# │   ├── user.js
+# │   └── course.js
+# │
+# ├── /routes
+# │   └── analytics.js
+# │
+# ├── /controllers
+# │   └── analyticsController.js
+# │
+# └── server.js
