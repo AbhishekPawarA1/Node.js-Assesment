@@ -1,0 +1,14 @@
+node_modules/
+
+
+# lms-analytics/
+# │
+# ├── server.js
+# ├── models/
+# │   ├── user.js
+# │   └── course.js
+# ├── routes/
+# │   ├── analytics.js
+# └── controllers/
+#     └── analyticsController.js
+
