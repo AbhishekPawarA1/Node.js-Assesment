@@ -1,0 +1,12 @@
+node_modules/
+
+// dockerized-auth/
+// ├── app.js
+// ├── .env
+// ├── .gitignore
+// ├── .dockerignore
+// ├── Dockerfile
+// ├── docker-compose.yml
+// ├── package.json
+// ├── package-lock.json
+// └── README.md

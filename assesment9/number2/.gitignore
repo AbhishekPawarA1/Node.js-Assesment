@@ -1,0 +1,14 @@
+node_modules/
+
+# dockerized-auth/
+# ├── app.js
+# ├── authController.js
+# ├── authRoutes.js
+# ├── errorMiddleware.js
+# ├── Dockerfile
+# ├── docker-compose.yml
+# ├── .env
+# ├── .gitignore
+# ├── .dockerignore
+# ├── package.json
+# └── README.md

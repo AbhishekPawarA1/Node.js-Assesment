@@ -1,0 +1,21 @@
+version: '3.7'
+services:
+  db:
+    image: mongo
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+      - "27017:27017"
+
+  app:
+    build: .
+    container_name: auth-app
+    ports:
+      - "5000:5000"
+    environment:
+      MONGODB_URI: mongodb://root:example@db:27017/authDB
+      JWT_SECRET: mysecretkey
+    depends_on:
+      - db
